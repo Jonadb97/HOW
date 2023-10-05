@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="assets/js/plugins/jquery-3.7.1.min.js.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn3.devexpress.com/jslib/23.1.5/js/dx.all.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/plugins/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/plugins/slick/slick-theme.css" />
+  <title>How Platform</title>
+</head>
+
+<body style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <div class="nav">
+    <nav class="desk-nav">
+      <img id="header-logo" src="./imgs/logotipo_blanco_sin fondo-05.png" alt="HOW Logo" width="150px">
+      <div class="envio">
+        <img src="imgs/icons/nav/🦆 icon _location pin_.png" alt=""><small>Enviar a Silvia</small>
+        <p>Capital Federal</p>
+      </div>
+      <div class="nav-container">
+        <div class="row first-nav-box">
+          <input type="search" name="vendor-buscador" id="vendor-searchbox"
+            placeholder="Seleccione productos, marcas..."><svg id="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" fill="gray"/>
+            </svg>
+          <button class="envio-button">ENVÍO GRATIS EN CAPITAL FEDERAL</button>
+        </div>
+        <div id= "prueba" class="row second-nav-box">
+          <!-- DROPDOWN USER MENU -->
+          <ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="transform: translateY(-0.5rem)">
+                Categorías
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark categs-menu" aria-labelledby="navbarDarkDropdownMenuLink" style="width: 300px !important; padding-bottom: 1rem !important;">
+                <li><a class="dropdown-item" href="#">Armado de PC</a></li>
+                <li><a class="dropdown-item" href="#">Arreglo de ropa</a></li>
+                <li><a class="dropdown-item" href="#">Consultoría de negocios</a></li>
+                <li><a class="dropdown-item" href="#">Cursos</a></li>
+                <li><a class="dropdown-item" href="#">Diseño Gráfico</a></li>
+                <li><a class="dropdown-item" href="#">Joyería y Relojería</a></li>
+                <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                <li><a class="dropdown-item" href="#">PetShop</a></li>
+                <li><a class="dropdown-item" href="#">Promociones especiales</a></li>
+                <li><a class="dropdown-item" href="#">Service de PC</a></li>
+                <li><a class="dropdown-item" href="#">Servicios</a></li>
+                <li><a class="dropdown-item" href="#">Servicio de Marketing</a></li>
+                <li><a class="dropdown-item" href="#">Tecnología</a></li>
+                <li><a class="dropdown-item" href="#">How</a></li>
+                <li><a class="dropdown-item" href="#">Tiendas Internacionales</a></li>
+                <li><a class="dropdown-item" href="#">Vehículos</a></li>
+                <li><a class="dropdown-item" href="#">Viajes</a></li>
+                <li><a class="dropdown-item" href="#">Web Developer</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Importados</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Turismo</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Noticias</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="profile-card">
+        <button><img src="imgs/icons/nav/User Thin.png" alt=""><p>Silvia</p></button>
+        <a class="miscompras" href="">Mis compras</a>
+        <a href="">Favoritos</a>
+        <img class="bell" src="imgs/icons/nav/bell.png" alt="">
+        <img class="cart" src="imgs/icons/nav/Shopping Car.png" alt="">
+      </div>
+    </nav>
+
+
+
+
+    <nav class="navbar-dark phone-nav">
+      <img id="header-logo" src="./imgs/logotipo_blanco_sin fondo-05.png" alt="HOW Logo" width="150px">
+      <div class="envio">
+        <img src="imgs/icons/nav/🦆 icon _location pin_.png" alt=""><small>Enviar a Silvia</small>
+        <p>Capital Federal</p>
+      </div>
+      <div class="nav-container">
+        <div class="row first-nav-box">
+          <input type="search" name="vendor-buscador" id="vendor-searchbox"
+            placeholder="Seleccione productos, marcas...">
+          <button class="envio-button">ENVÍO GRATIS EN CAPITAL FEDERAL</button>
+        </div>
+        <div class="row second-nav-box">
+          <!-- DROPDOWN USER MENU -->
+          <!--
+          <a class="nav-link dropdown-toggle" style="font-size: 2rem;color: white; :active color: blue" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ≡
+          </a>
+          <ul class="dropdown-menu" style="transform: translateX(-1rem)">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="transform: translateY(-0.5rem);">
+                Categorías
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark categs-menu" aria-labelledby="navbarDarkDropdownMenuLink" style="width: 180px !important; padding-bottom: 1rem !important;">
+                <li><a class="dropdown-item" href="#">Armado de PC</a></li>
+                <li><a class="dropdown-item" href="#">Arreglo de ropa</a></li>
+                <li><a class="dropdown-item" href="#">Consultoría de negocios</a></li>
+                <li><a class="dropdown-item" href="#">Cursos</a></li>
+                <li><a class="dropdown-item" href="#">Diseño Gráfico</a></li>
+                <li><a class="dropdown-item" href="#">Joyería y Relojería</a></li>
+                <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                <li><a class="dropdown-item" href="#">PetShop</a></li>
+                <li><a class="dropdown-item" href="#">Promociones especiales</a></li>
+                <li><a class="dropdown-item" href="#">Service de PC</a></li>
+                <li><a class="dropdown-item" href="#">Servicios</a></li>
+                <li><a class="dropdown-item" href="#">Servicio de Marketing</a></li>
+                <li><a class="dropdown-item" href="#">Tecnología</a></li>
+                <li><a class="dropdown-item" href="#">How</a></li>
+                <li><a class="dropdown-item" href="#">Tiendas Internacionales</a></li>
+                <li><a class="dropdown-item" href="#">Vehículos</a></li>
+                <li><a class="dropdown-item" href="#">Viajes</a></li>
+                <li><a class="dropdown-item" href="#">Web Developer</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Importados</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Turismo</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Noticias</a></li>
+          </ul>
+        </li>
+      </ul>
+    -->
+    <button class="navbar-toggler bg-body-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarText" >
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="transform: translateY(-0.5rem)">
+            Categorías
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark categs-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Armado de PC</a></li>
+            <li><a class="dropdown-item" href="#">Arreglo de ropa</a></li>
+            <li><a class="dropdown-item" href="#">Consultoría de negocios</a></li>
+            <li><a class="dropdown-item" href="#">Cursos</a></li>
+            <li><a class="dropdown-item" href="#">Diseño Gráfico</a></li>
+            <li><a class="dropdown-item" href="#">Joyería y Relojería</a></li>
+            <li><a class="dropdown-item" href="#">Perfumes</a></li>
+            <li><a class="dropdown-item" href="#">PetShop</a></li>
+            <li><a class="dropdown-item" href="#">Promociones especiales</a></li>
+            <li><a class="dropdown-item" href="#">Service de PC</a></li>
+            <li><a class="dropdown-item" href="#">Servicios</a></li>
+            <li><a class="dropdown-item" href="#">Servicio de Marketing</a></li>
+            <li><a class="dropdown-item" href="#">Tecnología</a></li>
+            <li><a class="dropdown-item" href="#">How</a></li>
+            <li><a class="dropdown-item" href="#">Tiendas Internacionales</a></li>
+            <li><a class="dropdown-item" href="#">Vehículos</a></li>
+            <li><a class="dropdown-item" href="#">Viajes</a></li>
+            <li><a class="dropdown-item" href="#">Web Developer</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Importados</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Turismo</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Noticias</a></li>
+      </ul>
+    </div>
+
+
+
+          <div class="profile">
+            <button><img src="imgs/icons/nav/User Thin.png" alt=""><p>Silvia</p></button>
+            <a class="miscompras" href="">Mis compras</a>
+            <a href="">Favoritos</a>
+            <img class="bell" src="imgs/icons/nav/bell.png" alt="">
+            <img class="cart" src="imgs/icons/nav/Shopping Car.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+  <main>
+
+    <!-- HERO SECTION -->
+    <div class="hero container-fluid g-0">
+      <div><img id="hero-img" class="img-fluid" src="imgs/heroes/drive-download-20230910T221718Z-001/1.png"
+          alt="Hero image">
+      </div>
+      <div><img id="hero-img" class="img-fluid" src="imgs/heroes/drive-download-20230910T221718Z-001/2.png"
+          alt="Hero image">
+      </div>
+      <div><img id="hero-img" class="img-fluid" src="imgs/heroes/drive-download-20230910T221718Z-001/3.png"
+          alt="Hero image">
+      </div>
+    </div>
+    <div class="hero-items row text-center">
+      <div class="col"><img src="imgs/icons/cart.svg" alt="">
+        <h2>COMPRA</h2>
+        <p>Obtén los mejores descuentos.</p>
+      </div>
+      <div class="col"><img src="imgs/icons/compravende.svg" alt="">
+        <h2>VENDE</h2>
+        <p>Gestión simplificada con bajas comisiones.</p>
+      </div>
+      <div class="col"><img src="imgs/icons/handmoney.svg" alt="">
+        <h2>GENERA INGRESOS</h2>
+        <p>Promociona los productos HOW y genera ingresos extra.</p>
+      </div>
+    </div>
+    <div class="widget-container">
+      <div id="gallery"></div>
+    </div>
+    </div>
+    <!-- HERO SECTION -->
+
+    <!-- VENTAJAS SECTION -->
+    <div class="ventajas-section">
+      <div class="ventajas-top">
+        <h1>Ventajas de ser parte de la familia de <span class="ventajas-color">How Platform</span></h1>
+        <p style="color: black;">La plataforma HOW ofrece ventajas como acceso a nuestra plataforma, visibilidad en
+          línea y gestión eficiente para empresas, lo que mejora la eficiencia y competitividad en el mercado. </p>
+      </div>
+      <div class="ventajas-cols row">
+        <div class="col ventaja-1">
+          <div class="row">
+            <h7>Vender con afiliados</h7>
+            <p>Aumenta tus ingresos con nuestro sistema de marketing de Afiliados.</p>
+          </div>
+          <div class="row">
+            <h7>Servicio de Marketing</h7>
+            <p>Campañas publicitarias en todas nuestras redes sociales.</p>
+          </div>
+          <div class="row">
+            <h7>Panel de gestión</h7>
+            <p>Gestiona tus ventas de forma fácil, rápida y segura.</p>
+          </div>
+        </div>
+        <div class="col" style="display: block; margin: auto"><img class="img-fluid img-cafe" src="imgs/caferaro.png"
+            alt="Exquisito Café HOW"></div>
+        <div class="col ventaja-2" style="text-align: left !important;">
+          <div class="row">
+            <h7>Obtén tu tienda virtual</h7>
+            <p>Tu página totalmente personalizada.</p>
+          </div>
+          <div class="row">
+            <h7>Logística de envíos</h7>
+            <p>Envíos nacionales e internacionales.</p>
+          </div>
+          <div class="row">
+            <h7>Notificación en tiempo real</h7>
+            <p>Recibe notificaciones de ventas y envíos por SMS, E-mail y Whats app.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- VENAJAS SECTION -->
+
+    <!-- OFERTAS SECTION -->
+    <div class="ofertas-section">
+      <h1>Ofertas destacadas</h1>
+      <div class="card-container ofertas-cards">
+
+        <div class="card">
+          <img src="imgs/ofertas/image 7.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="card-title">
+              <div class="card-price">
+                <h1>$130.000</h1>
+                <h2>10% OFF</h2>
+              </div>
+              <h6 class="card-cuotas">12x $10.833 sin interés</h6>
+              <h5 class="card-envio">ENVÍO GRATIS</h5>
+            </div>
+            <p class="card-text">Gabinete Aerocool Mirage Mid Tower ATX ARGB 3xFan ARGB</p>
+            <a href="#" class="btn btn-primary card-link btn-mycards">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="imgs/ofertas/image 8.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="card-title">
+              <div class="card-price">
+                <h1>$130.000</h1>
+                <h2>10% OFF</h2>
+              </div>
+              <h6 class="card-cuotas">12x $10.833 sin interés</h6>
+              <h5 class="card-envio">ENVÍO GRATIS</h5>
+            </div>
+            <p class="card-text">Diplomado Marketing Digital</p>
+            <a href="#" class="btn btn-primary card-link btn-mycards">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="imgs/ofertas/reloj hombre 1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="card-title">
+              <div class="card-price">
+                <h1>$130.000</h1>
+                <h2>10% OFF</h2>
+              </div>
+              <h6 class="card-cuotas">Reloj Terra</h6>
+              <h5 class="card-envio">ENVÍO GRATIS</h5>
+            </div>
+            <p class="card-text">Gabinete Aerocool Mirage Mid Tower ATX ARGB 3xFan ARGB</p>
+            <a href="#" class="btn btn-primary card-link btn-mycards">Ver más</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="imgs/ofertas/service de pc.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="card-title">
+              <div class="card-price">
+                <h1>$130.000</h1>
+                <h2>10% OFF</h2>
+              </div>
+              <h6 class="card-cuotas">12x $10.833 sin interés</h6>
+              <h5 class="card-envio">ENVÍO GRATIS</h5>
+            </div>
+            <p class="card-text">Service de PC</p>
+            <a href="#" class="btn btn-primary card-link">Ver más</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- OFERTAS SECTION -->
+
+
+    <!-- MEJORES MARCAS SECTION -->
+
+    <div class="mejores-marcas-section">
+      <h1>Las mejores marcas</h1>
+      <p>Para ofrecerte los mejores productos y servicios</p>
+      <div class="grilla-marcas container-fluid">
+        <div class="row" style="padding-bottom: 0.5rem">
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/Amazon 1.svg" alt=""></div><p>Amazon</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/aliexpress.svg" alt=""></div><p>Ali Express</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/Ebay.svg" alt=""></div><p>Ebay</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/ETSY 1.svg" alt=""></div><p>Ebay</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/Hotmart 1.svg" alt=""></div><p>Hotmart</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/Udemy logo.svg" alt=""></div><p>Hotmart</p></div>
+        </div>
+        <div class="row" style="padding-top: 0.5rem">
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/Elite 1.svg" alt=""></div><p>Elite Academy</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/Im.svg" alt=""></div><p>Mastery Academy</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/booking.svg" alt=""></div><p>Booking</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/agoda.svg" alt=""></div><p>Agoda</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/FRC 1.svg" alt=""></div><p>La France</p></div>
+          <div class="col"><div class="background-marcas"><img class="marcas-img" src="/imgs/marcas/Late 1.svg" alt=""></div><p>Late Rooms</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MEJORES MARCAS SECTION -->
+
+
+    <!-- COMERCIOS ADHERIDOS SECTION -->
+
+    <h1 class="comercios-title">Comercios adheridos</h1>
+
+
+    <div class="comercios-section">
+
+      
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="imgs/adheridos/Minasian Joyería.png" class="card-img img-fluid" alt="...">
+          <br>
+          <p class="card-text">Minasian Joyería</p>
+          <img src="imgs/adheridos/Frame 79.png" class="card-img img-fluid" alt="..."><br>
+          <a href="#">Ver tienda</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="imgs/adheridos/Armen Global DJ.png" class="card-img img-fluid" alt="...">
+          <br>
+          <p class="card-text">DJ Productor</p>
+          <img src="imgs/adheridos/Frame 80.png" class="card-img img-fluid" alt="..."><br>
+          <a href="#">Ver tienda</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="imgs/adheridos/Frame 82.png" class="card-img img-fluid" alt="...">
+          <br>
+          <p class="card-text">Gaming Store</p>
+          <img src="imgs/adheridos/Frame 81.png" class="card-img img-fluid" alt="..."><br>
+          <a href="#">Ver tienda</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="imgs/adheridos/SOLIS.png" class="card-img img-fluid" alt="...">
+          <br>
+          <p class="card-text">Solis Ferrtereía Integral</p>
+          <img src="imgs/adheridos/Frame 83.png" class="card-img img-fluid" alt="..."><br>
+          <a href="#">Ver tienda</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- COMERCIOS ADHERIDOS SECTION -->
+
+
+    <!-- FEATURES SECTION -->
+
+    <div class="features-section">
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="imgs/features/afiliados.png" class="card-img-features" alt="...">
+          <h5 class="card-title">Vender con afiliados</h5>
+
+          <ul class="features-ul">
+            <li>Aumenta tus ingresos gracias a nuestro sistema de marketing de Afiliados.</li>
+            <li>Gestiona tus ventas de forma fácil, rápida y segura.</li>
+            <li>Destaca tus productos en nuestras redes sociales.</li>
+          </ul>
+
+          <a href="#" class="btn btn-primary">Afiliarme a HOW</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="imgs/features/Market Thin.png" class="card-img-features" alt="...">
+          <h5 class="card-title">Obtén tu tienda virtual</h5>
+
+          <ul class="features-ul">
+            <li>Tu página totalmente personalizada.</li>
+            <li>Ofrecemos las comisiones más bajas del mercado.</li>
+            <li>Envíos nacionales e internacionales.</li>
+          </ul>
+
+          <a href="#" class="btn btn-primary">Obtener mi tienda virtual</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img src="imgs/features/marketing.png" class="card-img-features" alt="...">
+          <h5 class="card-title">Servicio de Marketing</h5>
+
+          <ul class="features-ul">
+            <li>Campañas publicitarias.</li>
+            <li>Diseño de identidad / branding.</li>
+            <li>Estrategia para redes sociales.</li>
+          </ul>
+
+          <a href="#" class="btn btn-primary">Promociona con estrategia</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FEATURES SECTION -->
+
+
+
+    <!-- CATEGORÍAS SECTION -->
+
+    <div class="categorias-section">
+      <h1>Categorías</h1>
+
+      <div class="categorias-grilla">
+
+        <div class="row">
+
+          <div class="col"><img src="imgs/categorias/armado de pc.png" alt="">
+            <p>Armado de PC</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/remera.png" alt="">
+            <p>Arreglo de ropa</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/negocios.png" alt="">
+            <p>Consultoría de negocios</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/Academy Thin.png" alt="">
+            <p>Cursos</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/diseño gráfico.png" alt="">
+            <p>Diseño Gráfico</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/Reloj.png" alt="">
+            <p>Joyería y Relojería</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col"><img src="imgs/categorias/Perfume.png" alt="">
+            <p>Perfumes</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/Petshop.png" alt="">
+            <p>Petshop</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/promociones.png" alt="">
+            <p>Promociones especiales</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/Service de pc.png" alt="">
+            <p>Service de PC</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/code pc.png" alt="">
+            <p>Servicios</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/marketing.png" alt="">
+            <p>Servicio de Marketing</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col"><img src="imgs/categorias/Tecnología.png" alt="">
+            <p>Tecnología</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/Logo HOW.png" alt="">
+            <p>How</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/world shop.png" alt="">
+            <p>Tiendas Internacionales</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/vehiculos.png" alt="">
+            <p>Vehículos</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/avion.png" alt="">
+            <p>Viajes</p>
+          </div>
+          <div class="col"><img src="imgs/categorias/pc config.png" alt="">
+            <p>Web Developer</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- CATEGORÍAS SECTION -->
+
+
+
+    <!-- COTIZA-COMMUNITY SECTION -->
+
+    <div class="cotiza-community row container-fluid">
+      <div class="col col-cotcom-1">
+
+        <div class="card-blue">
+          <div class="card-body">
+            <h5 class="card-title">Conocé nuestros servicios <span class="celeste-text">para empresas</span></h5>
+            <img src="imgs/icons/ph_buildings-thin.png" class="card-img-icon" alt="...">
+            <ul>
+              <li>Consultoría de negocios</li>
+              <li>Diseño y desarrollo web</li>
+              <li>Marketing y publicidad</li>
+              <li>Automatización</li>
+              <li>Producción de contenidos</li>
+            </ul>
+            <p class="card-text">¡Soluciones a la medida de tus necesidades!</p>
+            <a href="#" class="btn btn-primary btn-mycards">Solicitá una cotización</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col col-cotcom-2">
+
+        <div class="card-gray">
+          <div class="card-body">
+            <h5 class="card-title">¿Trabajás en <span class="orange-text">diseño, marketing o desarrollo?</span></h5>
+            <img src="imgs/icons/dev.png" class="card-img-icon" alt="...">
+            <p>
+              A menudo los clientes necesitan una variedad de servicios relacionados, por eso creamos <span
+                class="orange-text">HOW Developments,</span> una comunidad que te permitirá <span
+                class="orange-text">ofrecer servicios sin limites.</span>
+            </p>
+            <p class="card-text">¡Profesionales validados y un entorno de trabajo seguro!</p>
+            <a href="#" class="btn btn-primary orange btn-mycards">Únete a la comunidad</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- COTIZA-COMMUNITY SECTION -->
+
+
+
+    <!-- BOTTOM-CARDS SECTION -->
+
+    <div class="bottom-cards-section">
+
+      <div class="faqs-card bottom-card">
+
+        <h1>Preguntas frecuentes</h1>
+
+        <ul>
+          <li>¿Cuáles son las funcionalidades de HOW?</li>
+          <li>¿Qué es un afiliado?</li>
+          <li>¿Cómo vender mis productos?</li>
+          <li>¿Cómo hacer una compra?</li>
+          <li>¿Ofrecen garantía?</li>
+        </ul>
+
+        <a href="#">Ver todas las preguntas frecuentes</a><span class="arrow">></span>
+
+      </div>
+
+      <div class="collapsed">
+        <div class="different">
+      </div>
+
+      <div class="contacto-card bottom-card">
+
+        <h3>Contactá con nosotros</h3>
+        <div class="contact-icons">
+        <img src="imgs/icons/socials/instagram.png" alt=""><img src="imgs/icons/socials/linkedin.png" alt=""><img
+          src="imgs/icons/socials/tiktok.png" alt=""><img src="imgs/icons/socials/youtube.png" alt=""><img
+          src="imgs/icons/socials/facebook.png" alt=""><img src="imgs/icons/socials/twitter.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="pagos-card bottom-card">
+
+        <h3>Medios de pago</h3>
+
+        <img src="imgs/icons/pagos/1.png" alt="">
+        <img src="imgs/icons/pagos/2.png" alt="">
+
+      </div>
+    </div>
+    </div>
+
+    <!-- BOTTOM-CARDS SECTION -->
+
+
+    <!-- BOTTOM-ITEMS SECTION -->
+
+
+    <div class="bottom-items-section container-fluid">
+
+      <div class="row">
+
+        <div class="col-4">
+
+          <img src="imgs/icons/bottom/Credit Card Thin.png" alt="">
+
+          <h3>Elíge cómo abonar</h3>
+
+          <a href="">Podés pagar con tarjeta, débito o efectivo.</a>
+
+        </div>
+        <div class="col-4">
+
+          <img src="imgs/icons/bottom/Question.png" alt="">
+
+          <h3>Preguntas Frecuentes</h3>
+
+          <a href="">Ver todas las preguntas frecuentes.</a>
+
+        </div>
+        <div class="col-4">
+
+          <img src="imgs/icons/bottom/phone.png" alt="">
+
+          <h3>Nuestras Redes Sociales</h3>
+
+          <a href="">Ver todas nuestras redes sociales.</a>
+
+        </div>
+
+      </div>
+      <div class="row buttons-bottom">
+
+        <div class="col-8 button-bottom-1">
+
+          <a href=""><button>Botón de arrepentimiento
+              <small>Cancela una compra</small></button></a>
+
+        </div>
+        <div class="col-8 button-bottom-2">
+
+          <a href=""><button>Conoce las normas que aplican cuando compras
+              <small>Ver contratos de adhesión - Ley N.º 24.240 de Defensa del Consumidor</small>
+            </button></a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- BOTTOM-IEMS SECTION -->
+
+
+    <!--- FOOTER --->
+
+    <footer class="footer container-fluid">
+
+      <div class="row">
+
+        <div class="col">
+          <ul>
+            <li>
+              <h7>Categorías</h7>
+            </li>
+            <li>Productos</li>
+            <li>Servicios</li>
+            <li>Cursos</li>
+            <li>Turismo</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li>
+              <h7>Vendedores</h7>
+            </li>
+            <li>Regístrate</li>
+            <li>Cómo vender</li>
+            <li>Beneficios</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li>
+              <h7>Afiliados</h7>
+            </li>
+            <li>Regístrate</li>
+            <li>Genera ingresos extras</li>
+            <li>Beneficios</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li>
+              <h7>Preguntas frecuentes</h7>
+            </li>
+            <li>Qué es HOW</li>
+            <li>Cómo comprar</li>
+            <li>Cómo vender</li>
+            <li>Genera ingresos extras</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li>
+              <h7>Mi Cuenta</h7>
+            </li>
+            <li>Ingresa</li>
+            <li>Regístrate</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li>
+              <h7>Redes Sociales</h7>
+            </li>
+            <li>Instagram</li>
+            <li>Linked In</li>
+            <li>Tik Tok</li>
+            <li>Youtube</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Whatsapp</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="row">
+
+        <small>Términos y condiciones | Cuidamos tu privacidad | Ayuda</small>
+        <small>How Platform S.R.L. © 2022-2023 | Todos los derechos reservados, CABA, Argentina</small>
+
+      </div>
+
+    </footer>
+
+    <!--- FOOTER --->
+
+
+
+
+
+  </main>
+</body>
+<script src="assets/js/index.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/js/plugins/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+  integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+<script>
+
+  // GENERIC SLIDER
+
+  $(document).ready(function () {
+    $('.hero').slick({
+      slidesToShow: 1,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+
+    $('.ofertas-cards').slick({
+      dots: false,
+      arrows: false,
+      autoplay: true,
+      centerPadding: 15,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+    $('.comercios-section').slick({
+      dots: false,
+      arrows: false,
+      autplay: true,
+      centerPadding: 15,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false,
+            arrows: false,
+            centerPadding: 15,
+            infinite: true,
+            speed: 300,
+          }
+        },
+        {
+          breakpoint: 600,
+          dots: false,
+          arrows: false,
+          centerPadding: 15,
+          infinite: true,
+          speed: 300,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+
+          }
+        },
+        {
+          breakpoint: 480,
+          dots: false,
+          arrows: false,
+          centerPadding: 15,
+          infinite: true,
+          speed: 300,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+  });
+
+  // GENERIC SLIDER
+
+
+  // CARDS SLIDER
+
+  $num = $('').length;
+  $even = $num / 2;
+  $odd = ($num + 1) / 2;
+
+  if ($num % 2 == 0) {
+    $(':nth-child(' + $even + ')').addClass('active');
+    $(':nth-child(' + $even + ')').prev().addClass('prev');
+    $(':nth-child(' + $even + ')').next().addClass('next');
+  } else {
+    $(':nth-child(' + $odd + ')').addClass('active');
+    $(':nth-child(' + $odd + ')').prev().addClass('prev');
+    $(':nth-child(' + $odd + ')').next().addClass('next');
+  }
+
+  $('').click(function () {
+    $slide = $('.active').width();
+    console.log($('.active').position().left);
+
+    if ($(this).hasClass('next')) {
+      $('.container').stop(false, true).animate({ left: '-=' + $slide });
+    } else if ($(this).hasClass('prev')) {
+      $('.container').stop(false, true).animate({ left: '+=' + $slide });
+    }
+
+    $(this).removeClass('prev next');
+    $(this).siblings().removeClass('prev active next');
+
+    $(this).addClass('active');
+    $(this).prev().addClass('prev');
+    $(this).next().addClass('next');
+  });
+
+
+  // Keyboard nav
+  $('html body').keydown(function (e) {
+    if (e.keyCode == 37) { // left
+      $('.active').prev().trigger('click');
+    }
+    else if (e.keyCode == 39) { // right
+      $('.active').next().trigger('click');
+    }
+  });
+
+// CARDS SLIDER
+
+
+</script>
+
+</html>
